@@ -28,6 +28,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 find_package(Gflags REQUIRED)
 find_package(Glog REQUIRED)
+find_package(OpenCV REQUIRED)
 
 message("Gflags found = ${GFLAGS_FOUND}")
 message("Glog found = ${GLOG_FOUND}")
